@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
@@ -19,8 +19,8 @@ const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0 font-bold text-2xl text-indigo-600">
-            Envisage
+          <div className="flex-shrink-0">
+            <img src="/WhatsApp Image 2024-11-25 at 18.15.05_9503c9d0.jpg" alt="Logo" className="h-8" />
           </div>
           
           <div className="hidden md:block">
