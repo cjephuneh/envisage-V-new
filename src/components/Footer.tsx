@@ -1,4 +1,6 @@
 import React from 'react';
+import Imagelogo from '../../assets/WhatsApp_Image_2024-11-25_at_18.15.05_9503c9d0-removebg-preview.png';
+
 
 const Footer = () => {
   return (
@@ -6,7 +8,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4">Envisage</h3>
+            <div className="flex-shrink-0">
+              <img src={Imagelogo} alt="Logo" className="h-8" />
+            </div>
             <p className="text-gray-400 max-w-md">
               Transforming how organizations connect with their audiences through innovative 
               mobile solutions and comprehensive communication services.
