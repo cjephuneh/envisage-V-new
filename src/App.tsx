@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Stats from './components/Stats';
+// import Stats from './components/Stats';
 import Features from './components/Features';
 import Services from './components/Services';
 import Process from './components/Process';
@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Stats />
+        {/* <Stats /> */}
         <Features />
         <Services />
         <Process />
